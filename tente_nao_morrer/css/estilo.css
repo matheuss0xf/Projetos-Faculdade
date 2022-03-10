@@ -1,0 +1,477 @@
+body{
+    background-color: #000;
+}
+
+.menu{
+    background-color: #000000;
+    padding: 15px 80px;
+}
+
+.menu img{
+    max-width: 200px;
+}
+
+h2{
+    color: #a8a8a8;
+}
+
+h1, h3, p, a{
+    color: #515352;
+}
+
+
+
+.menu button{ 
+    border:1px solid rgb(17, 17, 17);
+}
+
+.menu a{
+    color:white;
+}
+
+.menu .dropdown-menu{
+    background: #515352;
+    
+}
+.dropdown-menu{
+   left: -25px;
+    
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+    text-decoration: none;
+    background: #464747;
+}
+.wid-70{
+    width: 70%;
+    margin: 10px auto;
+}
+
+
+.borda-cima{
+    width: 15%;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    border-top: 8px solid #272727;
+}
+.borda-baixo{
+    width: 15%;
+    margin-top: 15px;
+    margin-bottom: 40px;
+    border-top: 8px solid #272727;
+    float: right;
+}
+.destaque-home{
+    background-image: url(../img/paisagem.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+
+
+    border: 8px solid #272727;
+    border-radius: 0px 50px;
+    padding: 50px;
+    text-align: center;
+}
+
+.destaque-home h1{
+    font-size: 64px;
+}
+.destaque-home p{
+    color:white;
+}
+
+.destaque-home a{
+    margin: 30px 0;
+    font-weight: 600;
+    color:#fff;
+    text-decoration: none;
+    transform: rotate(4deg);
+    padding: 15px 60px;
+    background-color: #000000;
+    border:none;
+    display: inline-block;
+}
+
+.destaque-home span{
+    margin: 30px 0;
+    padding: 16px 4px;
+    background-color: #242424;
+}
+
+.img-logo img{
+    width: 100%;
+}
+.destaque-home-img img{
+    max-width: 100px;
+}
+.destaque-home-img a{
+    background-color: transparent;
+}
+
+.video-texto{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.video-texto h2{
+    font-size: 2.8em;
+    font-weight: 700;
+}
+
+.video-texto h3{
+    margin-top: 40px;
+}
+
+.video-texto p{
+    text-align: justify;
+}
+
+.video-jogo img{
+    margin-top: 100px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.personagem-texto{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.personagem-texto h2{
+    font-size: 2.8em;
+    font-weight: 700;
+}
+
+.personagem-texto h3{
+    margin-top: 40px;
+}
+
+.personagem-texto p{
+    text-align: justify;
+}
+
+
+.botao-personagem{
+    text-align: center;
+    position: relative;
+    top: 30px;
+    margin-bottom: 15px;
+}
+.botao-personagem span{
+    border: 2px solid #000;
+    padding: 24px 4px;
+}
+.botao-personagem a{
+    padding: 20px 40px;
+    background-color: #c4c4c4;
+    font-weight: 700;
+    color: #000;
+}
+
+.botao-personagem a:hover{
+    text-decoration: none;
+}
+
+.personagem-jogo img{
+    margin-top: 100px;
+    width: 100%;
+    max-width: 400px;
+    margin-left: 50px;
+}
+
+
+/* LOGIN E CADASTRO */
+
+.logo-acesso{
+    margin: 90px 50px;
+    display: inline-block;
+}
+
+.logo-acesso img{
+    max-width: 500px;
+    width: 100%;
+}
+
+form{
+    background-color: #1c1c1c;
+    padding: 30px;
+    width: 70%;
+    max-width: 500px;
+    margin: 0  auto;
+    border-radius: 10px 0px;
+}
+label{
+    color:white;
+}
+form  h2{
+    text-align: center;
+    font-size: 1.8em;
+}
+
+form input, form label, form a{
+    display: block;
+    width: 80%;
+    padding: 4px  0px;
+    margin:10px 0px;
+    margin: auto;
+}
+
+form a{
+    margin-top: 10px;
+    color:#808080;
+}
+
+form button{
+    background-color: #515352;
+    color: #fff;
+    display: block;
+    border:none;
+    padding: 10px 60px;
+    margin:10px 0px;
+    margin: auto;
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    margin-top: 30px;
+}
+
+form button:hover{
+    background-color: #fff ;
+    color: #515352;
+}
+
+
+
+/* Download  */
+.download{
+    text-align: center;
+}
+.download h1{
+    text-align: center;
+    font-size: 3em;
+}
+.download a{
+    text-align: center;
+    font-size: 3em;
+    color: #000;
+    text-decoration: none;
+    padding: 15px 60px;
+    background-color: #c4c4c4;
+    position: relative;
+    top: 40px;
+
+}
+
+
+
+
+
+
+
+
+footer{
+    padding: 30px;
+    margin-top: 50px;
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+}
+footer img{
+    width: 100%;
+    max-width: 500px;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .img-logo{
+        display: none;
+    }
+
+    .destaque-home-img a{
+        margin: 10px 0px;
+        padding: 15px 10px;
+    }
+
+    .menu{
+        padding: 15px 20px;
+    }
+    .destaque-home {
+        padding: 10px;
+    }
+    .destaque-home a{
+        font-size: 14px;
+    }
+
+    .destaque-home button {
+        padding: 15px 10px;
+    }
+
+    .destaque-home h1{
+        font-size: 32px;
+    }
+    .video-texto h2 {
+        font-size: 26px;
+    }
+    .video-texto h3 {
+        font-size: 24px;
+    }
+
+    .video-jogo img {
+        margin-top: 10px;
+    }
+
+    .personagem-texto h2 {
+        font-size: 26px;
+    }
+    .personagem-texto h3 {
+        font-size: 24px;
+    }
+    
+    .botao-personagem{
+        top: 15px;
+    }
+
+    .botao-personagem span {
+        border: 2px solid #000;
+        padding: 18px 4px;
+    }
+    .botao-personagem a {
+        padding: 16px 2px;
+        font-size: 12px;
+    }
+
+    .personagem-jogo img {
+        margin-top: 40px;
+        margin-left: 0px;
+    }
+
+    form h2 {
+        font-size: 1.2em;
+    }
+
+    form button {
+        padding: 10px 40px;
+        font-size: 16px;
+    }
+    form input, form label {
+        padding: 3px 0px;
+
+    }
+    .logo-acesso {
+        margin: 50px 50px;
+    }
+    
+}
+
+
+
+/* GALERIA */
+
+.row > .galeria {
+    padding: 0 8px;
+}
+.galeria{
+    margin: auto;
+}
+.row > .galeria img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+
+/* TELA DOWNLOAD */
+
+.destaque-download{
+    background-image: url(../img/download.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+
+
+    border: 8px solid #272727;
+    border-radius: 0px 50px;
+    padding: 50px;
+    text-align: center;
+}
+
+.destaque-download h2{
+    font-size: 1.5em;
+}
+.destaque-download h3{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: #d6d6d6;
+    font-size: 1.2em;
+}
+.destaque-download p{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color:white;
+}
+
+
+/* RANK */
+
+.container > header {
+	margin: 0 auto;
+	padding: 1em;
+	text-align: center;
+}
+
+.container > header h1 {
+  font-weight: 600;
+	font-size: 3em;
+	margin: 0;
+}
+
+.wrapper {
+	line-height: 1.5em;
+	margin: 0 auto;
+	padding: 2em 0 3em;
+	width: 90%;
+	max-width: 2000px;
+	overflow: hidden;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background: #040811;
+    color: white;
+}
+
+th {
+    background-color: #151515;
+    font-weight: bold;
+    color: #fff;
+    white-space: nowrap;
+}
+
+td, th {
+    padding: 1em 1.5em;
+    text-align: left;
+}
+
+tbody th {
+	background-color: #2ea879;
+}
+tbody tr:nth-child(2n-1) {
+    background-color: #030c28;
+    transition: all .125s ease-in-out;
+    color: white;
+}
+tbody tr:hover {
+    background-color: rgba(50,98,149,.3);
+}
+
+td.rank {
+	text-transform: capitalize;
+}
