@@ -1,0 +1,34 @@
+######### AVISO O APLICATIVO NÃO FOI FEITO PARA DESKTOP. É UM PWA FEITO APENAS PARA DISPOSITIVOS MOBILE ########
+
+FERRAMENTAS NECESSÁRIAS PARA O TESTE DA NOSSA APLICAÇÃO:
+
+SERVIDOR APACHE 
+PHP7
+
+OU PODE INSTALAR O WAMP OU XAMP QUE VAI DAR CERTO.
+
+1º PASSO -> IR NA PASTA INCLUDES DO PROJETO
+2º PASSO -> ABRIR O CONF.PHP 
+3º PASSO -> ALTERAR A ROTA DA LINHA 10 CONFORME SUA CONFIGURAÇÃO DE LOCALHOST
+4º PASSO -> INSERIR O ARQUIVO DA PASTA BD(BANCO DE DADOS) NO MYSQL PARA CONEXÃO SER FEITA COM SUCESSO E NÃO APARENTAR NENHUM ERRO.
+
+
+TECNOLOGIAS USADAS:
+
+Framework Materialize do google voltado para interfaces mobile.
+https://materializecss.com/
+
+Jquery - É uma biblioteca Javascript feita para facilitar o trabalho dos programadores(ou infernizar a vida de alguns rs)
+https://jquery.com/
+
+PHP7 - É uma linguagem de programação interpretada usada para desenvolvimento web do lado do servidor.7
+
+https://www.php.net/
+
+MySql - É um sistema de gerenciamento de dados, ultiliza a linguagem SQL como interface. É o nosso famoso banco de dados.
+
+https://www.mysql.com/
+
+APACHE - É o nosso servidor 
+
+https://www.apache.org/
